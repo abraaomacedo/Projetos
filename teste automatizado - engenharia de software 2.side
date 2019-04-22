@@ -1,0 +1,263 @@
+{
+  "id": "acfa1243-0930-43f0-a52f-ccf9830fbabd",
+  "version": "2.0",
+  "name": "teste automatizado - engenharia de software 2",
+  "url": "https://www.google.com.tw",
+  "tests": [{
+    "id": "9b1e491b-3dc5-479a-afa4-a12429c9d7e4",
+    "name": "Untitled",
+    "commands": [{
+      "id": "4d0cab58-e83d-417d-bb10-26516b082391",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcc9cb28-5529-4aca-9d64-9a7b8e414b6c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8bebcb4-692b-4ebb-b9e8-51d490ba1dcf",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "outlook"
+    }, {
+      "id": "c0170d99-f2d3-4910-90bf-93f3f10c0f76",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "339e2bb8-2acc-4506-95a8-e531c008e0a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .rc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .rc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Outlook.com - Microsoft free personal email')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1be5968f-1247-4cc7-a341-6165a43af4f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=i0116",
+      "targets": [
+        ["id=i0116", "id"],
+        ["name=loginfmt", "name"],
+        ["css=#i0116", "css:finder"],
+        ["xpath=//input[@id='i0116']", "xpath:attributes"],
+        ["xpath=//form[@id='i0281']/div/div/div/div[3]/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "abraaomacedo.ifc@outlook.com"
+    }, {
+      "id": "4403e975-d0e4-4935-bea4-72f3f77e2164",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=i0116",
+      "targets": [
+        ["id=i0116", "id"],
+        ["name=loginfmt", "name"],
+        ["css=#i0116", "css:finder"],
+        ["xpath=//input[@id='i0116']", "xpath:attributes"],
+        ["xpath=//form[@id='i0281']/div/div/div/div[3]/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "44beb2ae-8c57-43c0-a50b-3aefbf41d9b3",
+      "comment": "",
+      "command": "type",
+      "target": "id=i0118",
+      "targets": [
+        ["id=i0118", "id"],
+        ["name=passwd", "name"],
+        ["css=#i0118", "css:finder"],
+        ["xpath=//input[@id='i0118']", "xpath:attributes"],
+        ["xpath=//form[@id='i0281']/div/div/div/div[3]/div/div[2]/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "senhafraca1234567"
+    }, {
+      "id": "1014b489-eba5-4c47-9cf7-9cf8abc295d8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=i0118",
+      "targets": [
+        ["id=i0118", "id"],
+        ["name=passwd", "name"],
+        ["css=#i0118", "css:finder"],
+        ["xpath=//input[@id='i0118']", "xpath:attributes"],
+        ["xpath=//form[@id='i0281']/div/div/div/div[3]/div/div[2]/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d0e960c4-91fc-4771-8de0-44ed7c4a9d05",
+      "comment": "",
+      "command": "click",
+      "target": "id=id__5",
+      "targets": [
+        ["id=id__5", "id"],
+        ["css=#id__5", "css:finder"],
+        ["xpath=//div[@id='id__5']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/div/div/button/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/button/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "619c4304-b105-4f04-bc90-ae29755640a1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ms-BasePicker-input",
+      "targets": [
+        ["css=.ms-BasePicker-input", "css:finder"],
+        ["xpath=//input[@value='hiraga1113@gmail.com']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "hiraga1113@gmail.com"
+    }, {
+      "id": "96132a08-9ab2-47a5-8ca2-22eae43804b1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.ms-BasePicker-input",
+      "targets": [
+        ["css=.ms-BasePicker-input", "css:finder"],
+        ["xpath=//input[@value='hiraga1113@gmail.com']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "504bb18e-444f-4d3c-b924-2185227b0b13",
+      "comment": "",
+      "command": "click",
+      "target": "id=subjectLine0",
+      "targets": [
+        ["id=subjectLine0", "id"],
+        ["css=#subjectLine0", "css:finder"],
+        ["xpath=//input[@id='subjectLine0']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div/div/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2ef9150-2ef8-48e0-8f58-8628b0b9d3b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2BCZP_W9VLRv-NN3SC1nnS > div:nth-child(1)",
+      "targets": [
+        ["css=.\\_2BCZP_W9VLRv-NN3SC1nnS > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7d13f14-fbda-4160-97b9-3f8988a01dd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ms-BasePicker-input",
+      "targets": [
+        ["css=.ms-BasePicker-input", "css:finder"],
+        ["xpath=//input[@value='hiraga1113@gmail.com']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96f61b98-f306-400e-afd2-6acbff1cddee",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.ms-BasePicker-input",
+      "targets": [
+        ["css=.ms-BasePicker-input", "css:finder"],
+        ["xpath=//input[@value='hiraga1113@gmail.com']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c77c02cf-6fcf-4888-84c8-1b03365010b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=subjectLine0",
+      "targets": [
+        ["id=subjectLine0", "id"],
+        ["css=#subjectLine0", "css:finder"],
+        ["xpath=//input[@id='subjectLine0']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div/div/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "me ajuda ai kenga kkkk"
+    }, {
+      "id": "36d89ca6-4d75-40dc-9c3a-31abcfc68796",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=subjectLine0",
+      "targets": [
+        ["id=subjectLine0", "id"],
+        ["css=#subjectLine0", "css:finder"],
+        ["xpath=//input[@id='subjectLine0']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div/div/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7a28293e-426f-4896-aec4-962e6d3cfd94",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.\\_2BCZP_W9VLRv-NN3SC1nnS",
+      "targets": [
+        ["css=.\\_2BCZP_W9VLRv-NN3SC1nnS", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "<div style=\"font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\"><a href=\"https://nanatsu-no-taizai.fandom.com/pt-br/wiki/Meliodas\" id=\"LPlnk740582\">https://nanatsu-no-taizai.fandom.com/pt-br/wiki/Meliodas</a><br></div><div id=\"LPBorder_GTaHR0cHM6Ly9uYW5hdHN1LW5vLXRhaXphaS5mYW5kb20uY29tL3B0LWJyL3dpa2kvTWVsaW9kYXM.\" class=\"LPBorder953156\" contenteditable=\"false\" style=\"width: 100%; margin-top: 16px; margin-bottom: 16px; position: relative; max-width: 800px; min-width: 424px;\"><table id=\"LPContainer953156\" role=\"presentation\" style=\"padding: 12px 36px 12px 12px; width: 100%; border-width: 1px; border-style: solid; border-color: rgb(200, 200, 200); border-radius: 2px;\"><tr valign=\"top\" style=\"border-spacing: 0px;\"><td><div id=\"LPImageContainer953156\" style=\"position: relative; margin-right: 12px; height: 160px; overflow: hidden; width: 240px;\"><a target=\"_blank\" id=\"LPImageAnchor953156\" href=\"https://nanatsu-no-taizai.fandom.com/pt-br/wiki/Meliodas\"><img id=\"LPThumbnailImageId953156\" alt=\"\" src=\"https://vignette.wikia.nocookie.net/nanatsu-no-taizai/images/f/f9/Meliodas.png/revision/latest?cb=20170208215240&amp;path-prefix=pt-br\" height=\"160\" width=\"112\" style=\"display: block;\"></a></div></td><td style=\"width: 100%;\"><div id=\"LPTitle953156\" style=\"font-size: 21px; font-weight: 300; margin-right: 8px; font-family: wf_segoe-ui_light, &quot;Segoe UI Light&quot;, &quot;Segoe WP Light&quot;, &quot;Segoe UI&quot;, &quot;Segoe WP&quot;, Tahoma, Arial, sans-serif; margin-bottom: 12px;\"><a target=\"_blank\" id=\"LPUrlAnchor953156\" href=\"https://nanatsu-no-taizai.fandom.com/pt-br/wiki/Meliodas\" style=\"text-decoration: none; color: var(--themePrimary);\">Meliodas | Nanatsu no Taizai Wiki | FANDOM powered by Wikia</a></div><div id=\"LPDescription953156\" style=\"font-size: 14px; max-height: 100px; color: rgb(102, 102, 102); font-family: wf_segoe-ui_normal, &quot;Segoe UI&quot;, &quot;Segoe WP&quot;, Tahoma, Arial, sans-serif; margin-bottom: 12px; margin-right: 8px; overflow: hidden;\">Meliodas「メリオダス」 é o líder dos Sete Pecados Capitais, carregando o título de Pecado da Ira do Dragão. Ele é o proprietário do renomado bar Chapéu de Javali, e o principal protagonista da série. O seu Tesouro Sagrado é a Espada Demônio Lostvayne e seu poder é o Full Counter. Ele também já usou o...</div><div id=\"LPMetadata953156\" style=\"font-size: 14px; font-weight: 400; color: rgb(166, 166, 166); font-family: wf_segoe-ui_normal, &quot;Segoe UI&quot;, &quot;Segoe WP&quot;, Tahoma, Arial, sans-serif;\">nanatsu-no-taizai.fandom.com</div></td></tr></table><!--owa-remove-on-send-start--><div id=\"LPCloseButtonContainer953156\" class=\"BQVUVNafetr4ElVq5rXCb\" tabindex=\"0\" title=\"Remover a visualização do link\" role=\"button\"><span id=\"LPCloseButton953156\" class=\"_3cel-D_a3Rp0q7i7ziIHxn css-398\"></span></div><!--owa-remove-on-send-end--></div><br><div id=\"LPBorder_GTaHR0cHM6Ly9uYW5hdHN1LW5vLXRhaXphaS5mYW5kb20uY29tL3B0LWJyL3dpa2kvTWVsaW9kYXM.\" class=\"LPBorder849373\" contenteditable=\"false\" style=\"width: 100%; margin-top: 16px; margin-bottom: 16px; position: relative; max-width: 800px; min-width: 424px;\"><table id=\"LPContainer849373\" role=\"presentation\" style=\"padding: 12px 36px 12px 12px; width: 100%; border-width: 1px; border-style: solid; border-color: rgb(200, 200, 200); border-radius: 2px;\"><tr valign=\"top\" style=\"border-spacing: 0px;\"><td><div id=\"LPImageContainer849373\" style=\"position: relative; margin-right: 12px; height: 160px; overflow: hidden; width: 240px;\"><a target=\"_blank\" id=\"LPImageAnchor849373\" href=\"https://nanatsu-no-taizai.fandom.com/pt-br/wiki/Meliodas\"><img id=\"LPThumbnailImageId849373\" alt=\"\" src=\"https://vignette.wikia.nocookie.net/nanatsu-no-taizai/images/f/f9/Meliodas.png/revision/latest?cb=20170208215240&amp;path-prefix=pt-br\" height=\"160\" style=\"display: block;\" width=\"112\"></a></div></td><td style=\"width: 100%;\"><div id=\"LPTitle849373\" style=\"font-size: 21px; font-weight: 300; margin-right: 8px; font-family: wf_segoe-ui_light, &quot;Segoe UI Light&quot;, &quot;Segoe WP Light&quot;, &quot;Segoe UI&quot;, &quot;Segoe WP&quot;, Tahoma, Arial, sans-serif; margin-bottom: 12px;\"><a target=\"_blank\" id=\"LPUrlAnchor849373\" href=\"https://nanatsu-no-taizai.fandom.com/pt-br/wiki/Meliodas\" style=\"text-decoration: none; color: var(--themePrimary);\">Meliodas | Nanatsu no Taizai Wiki | FANDOM powered by Wikia</a></div><div id=\"LPDescription849373\" style=\"font-size: 14px; max-height: 100px; color: rgb(102, 102, 102); font-family: wf_segoe-ui_normal, &quot;Segoe UI&quot;, &quot;Segoe WP&quot;, Tahoma, Arial, sans-serif; margin-bottom: 12px; margin-right: 8px; overflow: hidden;\">Meliodas「メリオダス」 é o líder dos Sete Pecados Capitais, carregando o título de Pecado da Ira do Dragão. Ele é o proprietário do renomado bar Chapéu de Javali, e o principal protagonista da série. O seu Tesouro Sagrado é a Espada Demônio Lostvayne e seu poder é o Full Counter. Ele também já usou o...</div><div id=\"LPMetadata849373\" style=\"font-size: 14px; font-weight: 400; color: rgb(166, 166, 166); font-family: wf_segoe-ui_normal, &quot;Segoe UI&quot;, &quot;Segoe WP&quot;, Tahoma, Arial, sans-serif;\">nanatsu-no-taizai.fandom.com</div></td></tr></table><!--owa-remove-on-send-start--><div id=\"LPCloseButtonContainer849373\" class=\"BQVUVNafetr4ElVq5rXCb\" tabindex=\"0\" title=\"Remover a visualização do link\" role=\"button\"><span id=\"LPCloseButton849373\" class=\"_3cel-D_a3Rp0q7i7ziIHxn css-398\"></span></div><!--owa-remove-on-send-end--></div><br><div style=\"font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);\"><br></div><div id=\"Signature\">\\n<div id=\"divtagdefaultwrapper\" style=\"font-size:12pt; color:#000000; background-color:#FFFFFF; font-family:Calibri,Arial,Helvetica,sans-serif\">\\nEnviado do <a href=\"http://aka.ms/weboutlook\">Outlook</a></div>\\n\\n\\n</div>"
+    }, {
+      "id": "d5cb6878-5de5-4861-a0ec-bcd1e54c60f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ms-Button--primary",
+      "targets": [
+        ["css=.ms-Button--primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[50]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div/div[4]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "379ab2a4-5363-4374-b74d-4c9f5328bbaf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9b1e491b-3dc5-479a-afa4-a12429c9d7e4"]
+  }],
+  "urls": ["https://www.google.com.tw/"],
+  "plugins": []
+}
